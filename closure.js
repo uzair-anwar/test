@@ -9,13 +9,13 @@
 //         return a + b + c + d + e;
 //       }
 //     }
-//  
+//
 // }
 // }
 
 // console.log(sum(1)(2)(3)(4)); // log 20
 
-// // You can also write without anonymous functions:
+//You can also write without anonymous functions:
 
 // // global scope
 // var e = 10;
@@ -36,15 +36,14 @@
 // var sum4 = sum3(3);
 // var result = sum4(4);
 // console.log(result) //log 20
-var b=20;
-const outerFun = () =>{
-    let b=10;
-    const innerFun = () => {
-        console.log(`the sum of rwo no is ${b}`)
-        return ++b
-        
-    }
-    return innerFun();
-}
-console.log(b)
-console.log(outerFun())
+var b = 20;
+const outerFun = () => {
+  let b = 10;
+  const innerFun = () => {
+    console.log(`the sum of rwo no is ${b}`);
+    return ++b;
+  };
+  return innerFun();
+};
+console.log(b);
+console.log(outerFun());
