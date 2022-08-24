@@ -9,7 +9,6 @@
 //         return a + b + c + d + e;
 //       }
 //     }
-//  
 // }
 // }
 
@@ -36,15 +35,14 @@
 // var sum4 = sum3(3);
 // var result = sum4(4);
 // console.log(result) //log 20
-var b=20;
-const outerFun = () =>{
-    let b=10;
-    const innerFun = () => {
-        console.log(`the sum of rwo no is ${b}`)
-        return ++b
-        
-    }
-    return innerFun();
-}
-console.log(b)
-console.log(outerFun())
+var b = 20;
+const outerFun = () => {
+  let b = 10;
+  const innerFun = () => {
+    console.log(`the sum of rwo no is ${b}`);
+    return ++b;
+  };
+  return innerFun();
+};
+console.log(b);
+console.log(outerFun());
