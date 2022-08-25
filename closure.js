@@ -14,7 +14,7 @@
 
 // console.log(sum(1)(2)(3)(4)); // log 20
 
-// // You can also write without anonymous functions:
+//You can also write without anonymous functions:
 
 // // global scope
 // var e = 10;
