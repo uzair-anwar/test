@@ -1,0 +1,22 @@
+{
+  "name": "gittest2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",  
+    "url": "git+https://github.com/uzair-anwar/test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzair-anwar/test/issues"
+  },
+  "homepage": "https://github.com/uzair-anwar/test#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0"
+  }
+}
